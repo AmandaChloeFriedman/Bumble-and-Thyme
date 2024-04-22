@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Full-width banner */
+        .banner {
+            background-image: url('https://wallpapercave.com/wp/wp11164592.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1d1c1c;
+            text-align: center;
+        }
+
+        /* Dark overlay */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(228,213,183,.5);
+        }
+
+        /* Card container */
+        .card-container {
+            margin-top: 50px;
+        }
+
+        /* Card */
+        .card {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- Full-width banner -->
+        <div class="row banner">
+            <div class="overlay"></div>
+            <div class="col">
+                <h1>Bumble & Thyme</h1>
+            </div>
+        </div>
+
+        <!-- Card section -->
+        <div class="row card-container justify-content-center">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ethical</h5>
+                        <p class="card-text">Our foundation is built upon ethical principles; our operations ensure fair treatment and economically responsible practices from farm to plate.</p>
+                        <a href="https://amandachloefriedman.github.io/Bumble-and-Thyme/our-restaurant/" class="btn btn-primary">Our Mission</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sustainable</h5>
+                        <p class="card-text">With a commitment to sustainability, we minimize waste and prioritize eco-friendly sourcing, preserving the planet one sip and nibble at a time.</p>
+                        <a href="https://amandachloefriedman.github.io/Bumble-and-Thyme/our-restaurant/" class="btn btn-primary">Our Sourcing</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Natural</h5>
+                        <p class="card-text">Embracing nature's purity, our teas are unadulterated and free from artificial additives, offering a truly authentic and wholesome experience.</p>
+                        <a href="https://amandachloefriedman.github.io/Bumble-and-Thyme/our-restaurant/" class="btn btn-primary">Our Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
